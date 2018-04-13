@@ -22,7 +22,7 @@ def won?(board)
   end
 end
 
-##is the board full = draw? none? checks board for empty spaces/index present in the board.  I none are empty then the board is full
+##is the board full = draw: none? checks board for empty spaces/index present in the board.  If none are empty then the board is full
 def full?(board)
   board.none? do |index|
     index == " " ||index.nil?
